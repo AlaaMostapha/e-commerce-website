@@ -1,0 +1,25 @@
+
+@import 'header_09_Portfolio-3';
+
+
+.liOrange{
+  color:$orange;
+  display: inline-block;
+}
+.ligrey{
+  color: $grey;
+  font-weight: bold;
+  padding: 20px;
+  display: inline-block;
+}
+ .viewMoreBtn{
+   border:none;
+    color: #000;
+    background-color: #fff;
+padding: 20px 80px;
+font-weight: bold;
+box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+cursor: pointer;
+margin-top: 40px;
+font-family: Raleway;
+ }

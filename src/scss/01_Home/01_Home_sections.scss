@@ -1,0 +1,70 @@
+.three{
+  background-image: url("../../src/img/index/section-bg-4.jpg");
+
+}
+
+.section6{
+	height:180px;
+	width:100%;
+	background-color:$lightOrange;
+	.p1{
+		font-family:$font_family_2;
+		font-weight:bold;
+		font-size:12px;
+
+	}
+	.p2{
+		font-size:30px;
+		font-family:$font_family_2;
+		font-weight:bold;
+	}
+	.row{
+  			display:flex;
+			height:180px;
+			align-items:center;
+}
+		.first{
+			background:url('../../src/img/icons2/coffecup.png');
+			background-size:contain;
+			background-repeat:no-repeat;
+			background-position:center;
+
+		}
+		.second{
+			background:url('../../src/img/icons2/bag.png');
+			background-size:contain;
+			background-repeat:no-repeat;
+			background-position:center;
+
+		}
+		.third{
+			background:url('../../src/img/icons2/clock.png');
+			background-size:contain;
+			background-repeat:no-repeat;
+			background-position:center;
+
+		}
+		.forth{
+			background:url('../../src/img/icons2/right.png');
+			background-size:contain;
+			background-repeat:no-repeat;
+			background-position:center;
+
+
+		}
+
+	}
+
+.section8{
+  background:url('../../src/img/index/section-bg-19.jpg');
+  background-size: cover;
+
+}
+.section11{
+  background:url('../../src/img/index/section-bg-5.jpg');
+  background-size: cover;
+}
+.sub-section12{
+  width: 80%;
+  margin: 0 auto;
+}

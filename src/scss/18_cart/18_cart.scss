@@ -1,0 +1,105 @@
+@import "18_cart_header";
+table{
+  tr{
+        border-bottom: 1px solid #dee2e6;
+
+        td{
+          border:0;
+          vertical-align: middle;
+        }
+  }
+  th{
+    font-size: 14px;
+  }
+
+}
+a{
+  color: black;
+}
+
+.updateBtn{
+  margin-top:0;
+  padding: 13px 45px;
+}
+
+.flatS{
+  width:30px;
+  height:30px;
+}
+.navAndIcon{
+  .navbar-dark{
+    i{
+      font-size:$font20;
+    }
+    .cart{
+      background-color: $lightOrange;
+      padding:0px 5px ;
+      font-size: 14px;
+    }
+
+  .number{
+    background-color:$lightOrange;
+    padding: 0px;
+    font-size: $font20;
+  }
+  .btn:focus, .btn.focus{
+    box-shadow:none;
+  }
+  .dropdown-menu{
+    .dropdown-item.active, .dropdown-item:active{
+      background-color: transparent;
+    }
+    right: 0px;
+    left: auto;
+    top:68px;
+    min-width: 450px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 0px;
+    span{
+      border-bottom: 1px solid $grey;
+      .cart-content{
+        .img{
+          width: 70px;
+          height: 70px;
+        }
+        %card-inheritance{
+          .cart-link {
+            a{
+              font-size: $font14;
+              font-family: $RalewayBold;
+              color: $grey;
+            }
+
+            p{
+              font-size: $font16;
+              font-family: $LatoBold;
+              color: $black-color;
+            }
+
+          }
+        }
+
+
+      }
+    }
+    .save{
+      color:$grey;
+      font-size: $font14;
+      font-family: $LatoRegular;
+    }
+
+    .total{
+      color:$black-color;
+      font-size: $font14;
+  font-family: $LatoBold;
+    }
+  }
+  }
+}
+.dropdown-menu{ left :auto ;  right :0px; min-width: 20rem;}
+.the-nav{
+      height: 90px;
+      position: absolute;
+      width: 100%;
+
+     }

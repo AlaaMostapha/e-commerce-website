@@ -1,0 +1,56 @@
+.orangeSection{
+  padding: 50px;
+background-color:$lightOrange ;
+}
+.cupBg{
+  background-image: url("../../src/img/icons2/coffecup.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+.bagBg{
+  background-image: url("../../src/img/icons2/bag.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center;
+}
+.clockBg{
+   background-image: url("../../src/img/icons2/clock.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+     background-position: center;
+}
+.rightBg{
+  background-image: url("../../src/img/icons2/right.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center;
+}
+.what_they_say{
+  width: 100%;
+  height: 400px;
+  background-image: url("../../src/img/aboutUs/section-bg-5.jpg");
+  background-size: cover;
+  background-attachment:fixed;
+
+ p{
+   margin: 0 auto;
+   color: $grey;
+ }
+
+}
+
+.last_sec_p{
+    color: $grey;
+}
+hr{
+ border-top: 2px solid black;
+}
+
+.progressHeight{
+      height: 0.4rem;
+}
+.progressBackground{
+      background-color: #fcca03;
+}
